@@ -1,9 +1,18 @@
 ## Table of Contents
+- [Libraries](#Libraries)
 - [Data Cleaning](#data-cleaning)
 - [Figure 1](#Figure_1)
 - [Table 1](#Table_1)
 - [Figure 2](#Figure_2)
 - [Table 2](#Table_2)
+
+## Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from pandas.plotting import parallel_coordinates
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+import seaborn as sns
 
 ## Data Cleaning
 ### Strip % 
