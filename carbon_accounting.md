@@ -6,29 +6,27 @@
 - [Table 2](#Table_2)
 
 ## Data Cleaning
-# Strip % 
+### Strip % 
 carbon['downstream_percent_total_pcf'] = (carbon['downstream_percent_total_pcf'].str.strip('%'))
 carbon['upstream_percent_total_pcf'] = (carbon['upstream_percent_total_pcf'].str.strip('%'))
 carbon['operations_percent_total_pcf'] = (carbon['operations_percent_total_pcf'].str.strip('%'))
 
-# Replace NA
+### Replace NA
 carbon['upstream_percent_total_pcf'] = carbon['upstream_percent_total_pcf'].replace('N/a (product with insufficient stage-level data)', np.NaN)
 carbon['operations_percent_total_pcf'] = carbon['operations_percent_total_pcf'].replace('N/a (product with insufficient stage-level data)', np.NaN)
 carbon['downstream_percent_total_pcf'] = carbon['downstream_percent_total_pcf'].replace('N/a (product with insufficient stage-level data)', np.NaN)
 
-# Remove " " from industry_group
+### Remove " " from industry_group
 carbon['industry_group'] = carbon['industry_group'].str.strip('"')
 
-# Remove " " from company name
+### Remove " " from company name
 carbon['company'] = carbon['company'].str.strip('"')
 
 ## Figure_1
-# carbon emissions cumulated
 carbon_all = carbon[['industry_group','carbon_footprint_pcf']]
 carbon_all_groupby = carbon_all.groupby('industry_group')['carbon_footprint_pcf'].sum().reset_index()
 carbon_all_sorted = carbon_all_groupby.sort_values(by='carbon_footprint_pcf',ascending=False)
 
-# number of companies in each industry
 number_companies = carbon[['industry_group', 'company']]
 number_companies_groupby = number_companies.groupby('industry_group')['company'].count().reset_index()
 number_companies_count = number_companies_groupby.sort_values(by='company',ascending=False)
