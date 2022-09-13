@@ -1,2 +1,2 @@
 # carbon_accounting
-![NaNValues](./img/fig1_carbon.jpg)
+![fig1_carbon](./img/fig1_carbon.png)
