@@ -7,13 +7,16 @@
 - [Table 2](#Table_2)
 
 ## Libraries
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from pandas.plotting import parallel_coordinates
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 import seaborn as sns
+```
 
+```python
 ## Data Cleaning
 ### Strip % 
 carbon['downstream_percent_total_pcf'] = (carbon['downstream_percent_total_pcf'].str.strip('%'))
@@ -87,3 +90,4 @@ plt.show()
 carbon_breakdown_hardware = carbon[['company', 'carbon_footprint_pcf', 'upstream_percent_total_pcf','downstream_percent_total_pcf' ,'operations_percent_total_pcf']]
 carbon_breakdown_hardware = carbon_breakdown_hardware[carbon_breakdown_hardware['company'] == 'Technology Hardware & Equipment']
 carbon_breakdown_hardware_sorted = carbon_breakdown_hardware.sort_values(ascending=False, by='carbon_footprint_pcf')
+```
