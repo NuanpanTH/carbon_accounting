@@ -3,13 +3,17 @@
 
 The world has witnessed extreme weather this year - from the raging floods in Pakistan, severe drought in east Africa, and record-breaking heatwaves sweeping across different cities in Europe and China. These events are a stark reminder of the unfolding climate change crisis. To mitigate the impacts of climate change, industry plays a crucial role by reducing its overall carbon emissions. According to the IPCC, it is estimated that industry, transport, and electricity accounted for 76% of total global greenhouse gas (GHG) emissions, while 24% derived from agriculture, forestry, or other land use. 
 
+
 > Industry, transport, and electricity accounted for 76% of total greenhouse gas (GHG) emissions.
+
 
 The industry thus adopts climate plans to combat the crisis. According to Jaller and Matthews (2021)[^1], there are two typical strategies - one is to reduce the industry’s future carbon footprint against the emissions levels of the past year, and the other is to improve the process efficiency to generate lesser emissions per unit of production – known as carbon intensity.
 
 Carbon accounting is an essential process for the industry to measure GHG emissions. It allows the industry to identify where and how to reduce emissions along the value chain. Product carbon footprint (PCF) is a commonly used metric to quantify a product’s life cycle carbon emissions, allowing the industry to break down the emissions into “Scopes”. The use of scopes can be categorized as “scope 1” which encompasses emissions under the direct control of the industry, “scope 2” which is the indirect emissions associated with energy consumption, and “scope 3” which relates to the indirect emissions of the entire project life cycle. 
 
+
 > Carbon accounting allows the industry to identify where and how to reduce emissions along the value chain.
+
 
 According to the GHG Protocol, scope 3 emissions can be divided based on the industry’s upstream and downstream activities. The emissions from the upstream activities are based on the industry’s raw materials acquisition and production, while emissions from the product’s consumption are regarded as the downstream portion. 
 
