@@ -21,17 +21,17 @@ Carbon intensity is defined as the total PCF per product weight. The metric emph
 
 The article aims to provide an overview of GHG emissions and identify areas where the industry should focus to improve its carbon emissions reduction strategies by looking at the GHG emissions from carbon footprint data reported to CDP (formerly the Carbon Disclosure Project) from 2013-2016. The dataset[^2] contains 886 commercial products from 145 companies in 30 industry groups across 28 countries. 
 
-**Figure 1** illustrates each industry's cumulative product PCF from 2013-2017. It points out that the PCF attributable to the manufacturer of Electrical Equipment and Machinery was the largest carbon emissions contributor, with almost 10 million kg. CO2 equivalent, despite having lesser representation in the dataset than other industry groups. 
+**Figure 1** illustrates each industry's cumulative product PCF from 2013-2017. It points out that the PCF attributable to the manufacturer of Electrical Equipment and Machinery was the largest carbon emissions contributor, with almost 10 million kg. CO2 equivalent[^3], despite having lesser representation in the dataset than other industry groups. 
 
 ![fig1_carbon](./img/fig1_carbon.jpg)
 
 **Table 1** shows the PCF of each product in the Electrical Equipment and Machinery industry. Surprisingly, the Spanish company “Gamesa Corporación Tecnológica, S.A.”, specializing in wind energy production, appeared to be the biggest contributor to GHG emissions. The emissions from wind turbine production in 2015 alone totted up to 9.77 million kg. CO2 equivalent.
 
-Although the emissions of upstream and downstream activities are not available in the dataset to analyze the origin of emissions, it is reported that upstream raw materials needed for wind turbine production such as steel, aluminum, and epoxy resins are the largest sources of GHG emissions.[^3]
+Although the emissions of upstream and downstream activities are not available in the dataset to analyze the origin of emissions, it is reported that upstream raw materials needed for wind turbine production such as steel, aluminum, and epoxy resins are the largest sources of GHG emissions.[^4]
 
 ![table1_carbon](./img/table1_carbon.jpg)
 
-However, it is important to note that, as compared to other energy sources like coal-fired, natural gas, and solar energy, wind power generates a significantly lesser carbon footprint over the product’s life span[^4] and is widely encouraged to counter the climate crisis. To better track GHG emissions from the production process, carbon intensity is adopted by various entities to identify areas of improvement. 
+However, it is important to note that, as compared to other energy sources like coal-fired, natural gas, and solar energy, wind power generates a significantly lesser carbon footprint over the product’s life span[^5] and is widely encouraged to counter the climate crisis. To better track GHG emissions from the production process, carbon intensity is adopted by various entities to identify areas of improvement. 
 
 **Figure 2** depicts the normalized distribution of carbon intensity of each industry group from 2013-2017. The distribution is normalized between the highest value and lowest value in each year. Due to insufficient reported product-level data, only certain industry groups were shown. 
 
@@ -50,5 +50,6 @@ The PCF studies allow a company to analyze the breakdown of a product’s life c
 
 [^1]: Jaller, M., Matthews, S., Can Carbon Intensity Metrics Help Achieve Net Carbon Reductions?
 [^2]: Meinrenken, C.J., Chen, D., Esparza, R.A. et al. The Carbon Catalogue, carbon footprints of 866 commercial products from 8 industry sectors and 5 continents. Sci Data 9, 87 (2022). 
-[^3]: How Green Is Wind Power, Really? A New Report Tallies Up The Carbon Cost Of Renewables (forbes.com)
+[^3]: PCF was reported in kg. as per guidelines of the CDP questionnaire 2018
 [^4]: How Green Is Wind Power, Really? A New Report Tallies Up The Carbon Cost Of Renewables (forbes.com)
+[^5]: How Green Is Wind Power, Really? A New Report Tallies Up The Carbon Cost Of Renewables (forbes.com)
